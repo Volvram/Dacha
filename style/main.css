@@ -1,0 +1,198 @@
+main{
+    margin-top:120px;
+}
+.houses{
+    margin-bottom:60px;
+    margin-left:auto;
+    margin-right:auto;
+
+    padding-left:5%;
+    padding-right:5%;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+}
+.choices{
+    display:flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.choices button{
+    background-color:#ffffff;
+
+    border:0px;
+
+    font-size:16px;
+}
+.container{
+    width:auto !important;
+}
+.houses .container .row{
+    display:flex;
+    justify-content: space-around;
+}
+.houses .container .row>div{
+    display:flex;
+    justify-content: space-around;
+}
+.house{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right:10px;
+
+    max-width:400px;
+
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.house>img{
+    max-width:400px;
+    max-height:300px;
+
+    width:auto;
+    height:auto;
+}
+
+@media screen and (max-width: 1520px) and (min-width: 1161px) {
+    .house{
+        width:300px;
+    }
+}
+@media screen and (max-width: 1160px) and (min-width: 992px) {
+    .house{
+        width:250px;
+    }
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .house{
+        width:300px;
+    }
+}
+@media screen and (max-width: 767px) and (min-width: 477px) {
+    .house{
+        width:400px;
+    }
+}
+@media screen and (max-width: 476px) {
+    .house{
+        width:250px;
+    }
+}
+
+.house-info{
+    font-weight: 500 !important;
+    font-size: 20px;
+
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.label{
+    color: #404040;
+}
+.price{
+    color: #A32829;
+}
+.not-found{
+    margin-left: -8px;
+    margin-right: -8px;
+
+    padding-top:40px;
+    padding-bottom:40px;
+    padding-left: 20%;
+    padding-right:20%;
+
+    background-color: #A32829;
+
+    box-shadow: 1px 1px 8px 0 #000000;
+
+    text-align:center;
+
+    color:#ffffff;
+
+    font-family: "Open Sans";
+
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.call{
+    margin-top:10px;
+}
+.call>h2>a{
+    text-decoration: none;
+
+    color:#ffffff;
+}
+.subscribe{
+    margin-bottom: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+    padding-top:1%;
+    padding-bottom:1%;
+    padding-left:16%;
+    padding-right:16%;
+
+    background-color: #F2F2F2;
+
+    box-shadow: 1px 1px 8px 0 #000000;
+    
+    text-align:center;
+
+    font-family: "Open Sans";
+    font-weight: 400;
+
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    flex-wrap:wrap;
+}
+.subscribe form{
+    margin-top:30px;
+    margin-bottom:30px;
+
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.subscribe input{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:10px;
+    margin-right:10px;
+
+    width: auto;
+}
+.subscribe input[type=email]{  
+    
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-color: #a32829;;
+
+    background-color: #F2F2F2;
+
+    color: #121212;
+    font-size: 16px;
+}
+.subscribe input[type=submit]{
+    cursor:pointer;
+    
+    padding: 10px 24px;
+
+    border: 0px;
+    border-radius:20px;
+    background-color: #a32829;
+
+    color: #ffffff;
+    font-size: 16px;
+}
+.subscribe input[type=email]:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+}

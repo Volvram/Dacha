@@ -1,0 +1,77 @@
+footer{
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: 8px;
+
+    padding-left:5%;
+    padding-right:5%;
+    padding-top:20px;
+    padding-bottom:20px;
+    
+    background-color:#f7f6f5;
+
+    box-shadow: 1px 1px 8px 0 #000000;
+}
+
+.sections{
+    font-family: "Open Sans";
+
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+.sections span{
+    font-weight: 500;
+}
+.sections ul{
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+.sections ul li {
+    list-style-type: none; /* Убираем маркеры */
+}
+.sections ul li a{
+    border-bottom: 1px solid #A32829;
+
+    color: #000000;
+    text-decoration: none;
+
+    
+    font-weight: 300;
+    font-size:16px;
+}
+.socials>div{
+    height:70%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.socials a{
+    text-decoration: none;
+
+    color:#404040;
+
+    border: 0px !important;
+}
+.social{
+    display: flex;
+    align-items: center;
+}
+.socials img{
+    width:20px;
+    height:20px;
+}
+footer hr{
+    height:1px;
+
+    background-color: #A32829;
+}
+.rights{
+    color: #404040;
+    text-align: center;
+
+    font-family: "Open Sans";
+    font-weight: 300;
+    font-size:14px;
+}
