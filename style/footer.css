@@ -19,7 +19,6 @@ footer{
 
     display:flex;
     justify-content: space-around;
-    flex-wrap:wrap;
 }
 .sections span{
     font-weight: 500;
@@ -40,6 +39,13 @@ footer{
     
     font-weight: 300;
     font-size:16px;
+}
+
+/*Секции в колонну при маленьком экране*/
+@media screen and (max-width: 540px) {
+    .sections{
+        flex-direction: column;
+    }
 }
 
 /*Блок с соцсетями*/

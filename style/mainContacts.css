@@ -18,7 +18,7 @@ main>h1{
 }
 .call{
     padding:10px 20px;
-    border-right:1px solid #000000;
+    border-right:2px solid #000000;
 
     display: flex;
     justify-content: flex-start;
@@ -26,7 +26,7 @@ main>h1{
 }
 .email{
     padding:10px 20px;
-    border-right:1px solid #000000;
+    border-right:2px solid #000000;
 
     display: flex;
     justify-content: flex-start;
@@ -34,7 +34,7 @@ main>h1{
 }
 .adress{
     padding:10px 20px;
-    
+
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
@@ -42,7 +42,7 @@ main>h1{
 .call>h2>a{
     text-decoration: none;
 
-    border-bottom: 1px solid #A32829;
+    border-bottom: 2px solid #A32829;
 
     color:#000000;
 }
@@ -54,16 +54,17 @@ main>h1{
     color:#000000;
 }
 
+/*Блок "Как нас найти" в колонну при маленьком экране*/
 @media screen and (max-width:1124px) {
     .find{
         flex-direction: column;
     }
     .call{
-        border-bottom:1px solid #000000;
+        border-bottom:2px solid #000000;
         border-right:0px;
     }
     .email{
-        border-bottom:1px solid #000000;
+        border-bottom:2px solid #000000;
         border-right:0px;
     }
 }
