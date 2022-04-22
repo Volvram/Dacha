@@ -7,6 +7,8 @@ header{
     margin-left: -8px;
     margin-right: -8px;
 }
+
+/*Весь блок навигации*/
 .nav{
     margin-bottom: 8px;
 
@@ -26,19 +28,24 @@ header{
     justify-content:space-between;
     align-items:center;
 }
-.logo{
-    height:fit-content;
-    width:fit-content;
-}
+
+/*Блок с логотипом и меню*/
 .nav-bar{
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+    height:fit-content;
+    width:fit-content;
+}
 .nav-bar div{
     margin-left:10px;
     margin-right: 10px;
 }
+.nav-bar-menu{
+    display:flex;
+} 
  .nav-bar-menu button{
     display:none;
 
@@ -55,6 +62,7 @@ header{
     font-size:24px;
 }
 
+/*Конвертация списка меню в кнопку*/
 @media screen and (max-width:1130px) {
     .nav-bar-menu>div>a{
         display:none;
@@ -67,9 +75,7 @@ header{
     }
 }
 
-.nav-bar-menu{
-    display:flex;
-} 
+/*Блок с городом и телефоном*/
 .city-and-phone{
     font-family: "Open Sans";
     font-weight: 400;
@@ -99,6 +105,8 @@ header{
 
     font-weight: 500 !important;
 }
+
+/*Конвертация записей в картинки*/
 @media screen and (max-width:720px) {
     .phone>a{
         display:none;
@@ -113,6 +121,8 @@ header{
         display:inline;
     }
 }
+
+/*Корректировка размеров картинок для маленьких экранов*/
 @media screen and (max-width:510px) {
     .logo>img{
         width:90px;
