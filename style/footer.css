@@ -11,12 +11,12 @@ footer{
     background-color:#f7f6f5;
 
     box-shadow: 1px 1px 8px 0 #000000;
+
+    font-family: "Open Sans";
 }
 
 /*Все секции футера*/
 .sections{
-    font-family: "Open Sans";
-
     display:flex;
     justify-content: space-around;
 }
@@ -84,7 +84,6 @@ footer hr{
     color: #404040;
     text-align: center;
 
-    font-family: "Open Sans";
     font-weight: 300;
     font-size:14px;
 }

@@ -1,11 +1,12 @@
 header{
-    position:fixed;
-    width:100%;
-
-
     margin-top: -120px;
     margin-left: -8px;
     margin-right: -8px;
+
+    position:fixed;
+    width:100%;
+
+    font-family: "Open Sans";
 }
 
 /*Весь блок навигации*/
@@ -47,6 +48,8 @@ header{
     display:flex;
 } 
  .nav-bar-menu button{
+    cursor:pointer;
+
     display:none;
 
     border:0px;
@@ -57,7 +60,6 @@ header{
     color:#121212;
     text-decoration: none;
     
-    font-family: "Open Sans";
     font-weight: 300;
     font-size:24px;
 }
@@ -77,7 +79,6 @@ header{
 
 /*Блок с городом и телефоном*/
 .city-and-phone{
-    font-family: "Open Sans";
     font-weight: 400;
     font-size:20px;
 

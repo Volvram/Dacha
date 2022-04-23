@@ -1,0 +1,67 @@
+main{
+    margin-top:120px;
+
+    font-family: "Open Sans";
+}
+
+/*Блок планировки*/
+.plan{
+    margin-bottom: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+    padding:3%;
+
+    background-color: #F2F2F2;
+
+    box-shadow: 1px 1px 8px 0 #000000;
+}
+.plan>h1{
+    text-align: center;
+}
+.plan-images{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/*Блок конструкции*/
+.construction{
+    margin-bottom: 8px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left:20%;
+    padding-right: 3%;
+
+    background-color: #ffffff;
+
+    box-shadow: 1px 1px 8px 0 #000000;
+
+    display:flex;
+    justify-content: space-around;
+}
+.tx>button{
+    cursor:pointer;
+
+    margin-top: 40px;
+
+    padding: 13px 21px;
+
+    border:0px;
+
+    border-radius: 24px;
+    
+    background-color: #a32829;
+
+    color: #ffffff;
+
+    font-size: 16px;
+
+    display:flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
