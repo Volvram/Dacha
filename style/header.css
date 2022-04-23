@@ -98,6 +98,15 @@ header{
 .city{
     border-bottom: 1px dashed #a32829;
 }
+.city>button{
+    cursor:pointer;
+
+    border:0px;
+
+    background-color: #ffffff;
+
+    font-size: 20px;
+}
 .phone>a{
     text-decoration: none;
 
@@ -111,7 +120,7 @@ header{
     .phone>a{
         display:none;
     }
-    .city>span{
+    .city>button{
         display:none;
     }
     .city-image>img{

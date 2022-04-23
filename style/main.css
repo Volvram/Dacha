@@ -22,11 +22,18 @@ main{
     align-items: center;
 }
 .choices button{
+    cursor: pointer;
+
     background-color:#ffffff;
+
+    color:#000000;
 
     border:0px;
 
     font-size:16px;
+}
+.choices button:focus{
+    border-bottom:1px solid #A32829;
 }
 
 /*Сами дома*/
